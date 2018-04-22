@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+  --bg: #212121;
+  --nc: #F5F5F5;
+  --bo: #2d6898;
+}
+
+#menu{
+	left:0;
+	top:9%;
+	width:15%;
+	height:82%;
+	position:absolute;
+	display:list-item;
+	box-sizing:border-box;
+	background-color:var(--bg);
+	border:1px solid var(--bo);
+	font-weight: bold;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace;
+    
+	
+}
+
+table{
+	border-color:var(--bo);
+	color:var(--nc);
+}
+
+td{
+	text-align:center;
+}
+td:hover{
+	background-color:var(--bo);
+}
+
+a
+{
+    color:inherit;
+    text-decoration:none;
+}
+
+#main{
+	left:15%;
+	top:9%;
+	width:75%;
+	height:82%;
+	position:absolute;
+}
+	
+#box0{
+	position:absolute;
+	display: inline-block;
+	left:20%;
+	top:5%;
+	width:30%;
+	height:33%;
+	border:1px solid var(--bg);
+	font-weight: bold;
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+    text-align:center;
+	background-color:var(--bg);
+	color:var(--nc);
+	
+	
+}
+
+#box1{
+	position:absolute;
+	left:60%;
+	top:5%;
+	width:30%;
+	height:33%;
+	border:1px solid var(--bg);
+	font-weight: bold;
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+	text-align:center;
+	background-color:var(--bg);
+	color:var(--nc);	
+}
+
+#box2{
+	position:absolute;
+	display: inline-block;
+	left:40%;
+	top:45%;
+	width:30%;
+	height:33%;
+	border:1px solid var(--bg);
+	font-weight: bold;
+	font-size:25px;
+	font-family:"Courier New", Courier, monospace;
+    text-align:center;
+	background-color:var(--bg);
+	color:var(--nc);
+	
+	
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+#box1:hover{
+	animation: blinker 1s linear infinite;
+	background-image:url(../Laptop/laptops-wdow-1920x1080-wallpaper-2365731.jpg);
+	background-size:contain;
+	font-size:0;
+}
+
+#box0:hover{
+	animation: blinker 1s linear infinite;
+	background-image:url(../Mobile/galaxy-s6-edge-plus.jpg);
+	background-size:contain;
+	font-size:0;	
+}
+
+#box2:hover{
+	animation: blinker 1s linear infinite;
+	background-image:url(../ACCESORIES/personal-electronic-devices-clipart-1.jpg);
+	background-size:contain;
+	font-size:0;	
+}
+	
